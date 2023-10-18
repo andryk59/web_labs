@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend><b>Контактная информация</b></legend>
+            <p><label for="name">Имя </label><input type="text" required size="40" autofocus></p>
+            <p><label for="phone_number">Телефон </label><input type="text" size="40" pattern="+[0-9]{12}"></p>
+            <p><label for="email">Email </label><input type="email" required size="40" pattern="[a-z0-9]@^[a-zA-Z0-9\.]*$"></p>
+        </fieldset>
+        <fieldset>
+            <legend><b>Поиск и фильтрация книг</b></legend>
+            <p><label for="book_name">Название книги </label><input type="text" size="40"></p>
+            <p><label for="author">Автор </label><input type="text" size="40"></p>
+            <p><label for="janr">Жанр книги </label>
+                <select>
+                    <option>Фантастика</option>
+                    <option>Драма</option>
+                    <option>Ужасы</option>
+                </select>
+            </p>
+            <p><label for="publish_date">Дата издания </label><input type="date"></p>
+        </fieldset><br>
+        <input type="checkbox"> Согласие на обработку персональных данных<br><br>
+        <input type="reset" value="Очистить">
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>
