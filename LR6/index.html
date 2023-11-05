@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <noscript>Включите JavaScript</noscript>
+    <table>
+        <tr>
+            <td onmouseover="mouseover(this)" onmouseout="mouseout(this)">Элемент 1</td>
+            <td ondblclick="dblclick(this)">Элемент 2</td>
+            <td onclick="classList.add('cl4')">Элемент 3</td>
+            <td onmouseover="style.color = 'orange'">Элемент 4</td>
+            <td ondblclick="style.backgroundColor = '#00ffff'">Элемент 5</td>
+            <td onclick="style.fontStyle = 'italic'">Элемент 6</td>
+        </tr>
+    </table>
+    <button value="1" onclick="counter(this)">1</button>
+    <button value="2" onclick="counter(this)">2</button>
+    <button value="3" onclick="counter(this)">3</button>
+    <button value="4" onclick="counter(this)">4</button>
+    <button value="result" onclick="result()">Результат</button>
+    <div onmouseover="bigger(this)"; onmouseout="style.color = 'orange'">Я, Какостиков А.С, учусь работать с JavaScript</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
