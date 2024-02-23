@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Фотогалерея</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="gallery">
+    <div class="thumbnail" onclick="openModal();currentSlide(1)">
+        <img src="image1.png" class="image12" alt="Photo 1">
+    </div>
+    <div class="thumbnail" onclick="openModal();currentSlide(2)">
+        <img src="image2.png" class="image11" alt="Photo 2">
+    </div>
+
+</div>
+
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">X</span>
+    <div class="modal-content">
+        <div class="mySlides">
+            <img src="image1.png" class="image11">
+            <p style="color: rgb(146, 6, 6);">Описание фото 1</p>
+        </div>
+        <div class="mySlides">
+            <img src="image2.png" class="image12">
+            <p style="color: rgb(140, 16, 16);">Описание фото 2</p>
+        </div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

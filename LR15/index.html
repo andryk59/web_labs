@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>H1</h1>
+    <p>P</p>
+    <form>
+        <label for="username">User</label>
+        <input type="text" id="username" name="username">
+        <br>
+        <input type="submit" value="Отправить">
+    </form>
+    <div>
+        <p>P in div</p>
+    </div>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <ul id="Months">
+        <li>Январь</li>
+        <li>Февраль</li>
+        <li>Март</li>
+        <li>Апрель</li>
+        <li>Май</li>
+        <li>Июнь</li>
+        <li>Июль</li>
+        <li>Август</li>
+        <li>Сентябрь</li>
+        <li>Октябрь</li>
+        <li>Ноябрь</li>
+        <li>Декабрь</li>
+    </ul>
+
+    <main id="main">
+        <h1>H1</h1>
+        <h2>H2</h2>
+        <h3>H3</h3>
+    </main>
+      <button onclick="show()">Показать заголовки</button>
+
+
+      <label>
+        <input type="radio" name="answer" value="yes" onchange="updateLabelColor()">
+        <span id="yesLabel" class="active-label">Да</span>
+      </label>
+      
+      <label>
+        <input type="radio" name="answer" value="no" onchange="updateLabelColor()">
+        <span id="noLabel" class="inactive-label">Нет</span>
+      </label>
+    <script src="script.js"></script>
+
+
+
+    <div id="vibor">
+        <h2>Явление природы</h2>
+        <form id="viborForm">
+          <label>
+            <input type="radio" name="q1" value="light"> Молния
+          </label>
+          <label>
+            <input type="radio" name="q1" value="groza"> Гроза
+          </label>
+          <label>
+            <input type="radio" name="q1" value="earthquacke"> Землетресение
+          </label>
+      
+          <button type="button" onclick="showResult()">Результат</button>
+        </form>
+      
+        <div id="result" class="result"></div>
+      </div>
+</body>
+</html>

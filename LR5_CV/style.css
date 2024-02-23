@@ -1,0 +1,420 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.white_foundation{
+    display: flex;
+    width: 359px;
+    height: 842px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    flex-shrink: 1;
+    background: #fff;
+    border: 1px solid aqua;
+
+}
+
+.black_base {
+    display: flex;
+    width: 236px;
+    height: 842px;
+    flex-shrink: 0;
+    background: #000;
+    color: #fff;
+    font-family: Roboto;
+}
+
+.avatar {
+    position: absolute;
+    width: 143px;
+    height: 143px;
+    flex-shrink: 0;
+    top: 32px;
+    left: 46px;
+    border-radius: 143px;
+    background: url(img/1.jpg);
+    background-size: cover;
+}
+
+.signature {
+    position: absolute;
+    flex-shrink: 0;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.s1 {
+    top: 196px;
+    left: 97px;
+    width: 76px;
+    height: 15px;
+}
+
+.s2 {
+    top: 384px;
+    left: 35px;
+    width: 161px;
+    height: 15px;
+}
+
+.description {
+    position: absolute;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dis1 {
+    top: 229px;
+    left: 34px;
+    width: 175px;
+    text-align: justify;
+}
+
+.gr1 {
+    position: absolute;
+    top: 411px;
+    left: 38px;
+    width: 15.09px;
+    height: 15.076px;
+    flex-shrink: 0;
+    color: #10edd2;
+}
+
+.gr2 {
+    position: absolute;
+    top: 438px;
+    left: 38.4px;
+    width: 15.719px;
+    height: 10.591px;
+    flex-shrink: 0;
+    color: #10edd2;
+}
+
+.gr3 {
+    position: absolute;
+    top: 463.92px;
+    left: 39.43px;
+    width: 12.528px;
+    height: 18.299px;
+    flex-shrink: 0;
+    color: #10edd2;
+}
+
+.gr4 {
+    position: absolute;
+    top: 495px;
+    left: 38px;
+    width: 16.543px;
+    height: 16.529px;
+    flex-shrink: 0;
+    color: #10edd2;
+}
+
+.dis2 {
+    width: 117px;
+    top: 413px;
+    left: 71px;
+}
+
+.dis3 {
+    width: 143px;
+    top: 439px;
+    left: 71px;
+}
+
+.dis4 {
+    width: 140px;
+    top: 467px;
+    left: 71px;
+    word-break: break-all;
+}
+
+.dis5 {
+    width: 133px;
+    top: 497px;
+    left: 71px;
+    text-decoration-line: underline;
+    word-break: break-all;
+}
+
+.s3 {
+    width: 139px;
+    height: 15px;
+    top: 541px;
+    left: 36px;
+}
+
+.dis6 {
+    width: 104.27px;
+    height: 113.64px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 571px;
+    left: 100px;
+}
+
+.dis7 {
+    width: 72px;
+    height: 14px;
+    flex-shrink: 0;
+    top: 563px;
+    left: 39px;
+}
+
+.dis8 {
+    margin-top: 5px;
+}
+
+.s4 {
+    width: 139px;
+    height: 15px;
+    flex-shrink: 0;
+    top: 707px;
+    left: 36px;
+}
+
+.dis9 {
+    width: 173px;
+    text-align: justify;
+    top: 730px;
+    left: 38px;
+}
+
+.header {
+    width: 266px;
+    height: 35px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 27px;
+    left: 334px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header_color {
+    width: 266px;
+    height: 35px;
+    flex-shrink: 0;
+    background: #28C6B3;
+    position: absolute;
+    top: 32px;
+    left: 329px;
+}
+
+.s5 {
+    width: 171px;
+    height: 16px;
+    flex-shrink: 0;
+    color: #000;
+    top: 94px;
+    left: 294px;
+}
+
+.signature_white {
+    font-family: Roboto;
+    line-height: normal;
+    font-style: normal;
+    position: absolute;
+}
+
+.dis10 {
+    top: 117px;
+    left: 294px;
+    width: 285px;
+}
+
+.grey_text {
+    color: #7D7E7F;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.black_text_11px {
+    color: #000;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.dis11 {
+    width: 306px;
+    top: 167px;
+    left: 294px;
+}
+
+.s6 {
+    width: 171px;
+    height: 15px;
+    flex-shrink: 0;
+    top: 220px;
+    left: 294px;
+}
+
+.dis12 {
+    width: 263px;
+    top: 247px;
+    left: 294px;
+}
+
+.green_text {
+    color: #09BEA8;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.black_text_10px {
+    color: #000;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.dis13 {
+    width: 263px;
+    top: 358px;
+    left: 295px;
+}
+
+.s7 {
+    width: 171px;
+    height: 15px;
+    flex-shrink: 0;
+    top: 479px;
+    left: 294px;
+}
+
+.dis14 {
+    width: 266px;
+    top: 506px;
+    left: 294px;
+}
+
+.dis15 {
+    width: 266px;
+    top: 556px;
+    left: 294px;
+}
+
+.dis16 {
+    width: 266px;
+    top: 610px;
+    left: 294px;
+}
+
+.s8 {
+    width: 217px;
+    height: 15px;
+    flex-shrink: 0;
+    top: 676px;
+    left: 294px;
+}
+
+.dis17 {
+    width: 213px;
+    top: 708px;
+    left: 291px;
+}
+
+.dis18 {
+    width: 213px;
+    top: 762px;
+    left: 291px;
+}
+
+.gr5 {
+    width: 29.77px;
+    height: 22.64px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 88px;
+    left: 252px;
+}
+
+.gr6 {
+    width: 30px;
+    height: 26px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 214px;
+    left: 252px;
+}
+
+.gr7 {
+    width: 27.98px;
+    height: 28.49px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 468px;
+    left: 253px;
+}
+
+.gr8 {
+    width: 22.49px;
+    height: 24.93px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 670px;
+    left: 259px;
+}
+
+.gr9 {
+    width: 0px;
+    height: 93px;
+    flex-shrink: 0;
+    stroke-width: 0.2px;
+    stroke: #7D7E7F;
+    position: absolute;
+    top: 117px;
+    left: 267px;
+}
+
+.gr10 {
+    width: 0px;
+    height: 210px;
+    flex-shrink: 0;
+    stroke-width: 0.2px;
+    stroke: #7D7E7F;
+    top: 251px;
+    left: 267px;
+    position: absolute;
+}
+
+.gr11 {
+    width: 0px;
+    height: 140px;
+    flex-shrink: 0;
+    stroke-width: 0.2px;
+    stroke: #7D7E7F;
+    top: 508px;
+    left: 267px;
+    position: absolute;
+}
+
+.gr12 {
+    width: 0px;
+    height: 112px;
+    flex-shrink: 0;
+    stroke-width: 0.2px;
+    stroke: #7D7E7F;
+    top: 711px;
+    left: 267px;
+    position: absolute;
+}
