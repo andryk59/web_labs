@@ -1,0 +1,51 @@
+/* Стили для первой строки и первого столбца */
+.salad-color {
+    background-color: #7fc06e; /* Салатовый цвет */
+    color: white;
+}
+
+/* Стили для всех остальных ячеек */
+.turquoise-color {
+    background-color: #40e0d0; /* Берюзовый цвет */
+    color: white;
+}
+
+/* Стили для белых толстых границ */
+.my-table {
+    border-collapse: collapse;
+    border: 2px solid white;
+}
+
+.my-table td {
+    border: 2px solid white;
+    padding: 8px;
+}
+
+.toggle-container {
+    width: 80px;
+    height: 40px;
+    background-color: #ddd;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle-handle {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    transition: transform 0.3s ease;
+}
+
+.on {
+    transform: translateX(40px);
+}
+
+.toggle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

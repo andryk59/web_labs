@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Список профессий</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+    .modal-content {
+        margin: 20% auto;
+    }
+</style>
+</head>
+<body>
+<div class="container mt-5">
+    <h1>Список профессий</h1>
+    <ul>
+        <li><a href="#" data-toggle="modal" data-target="#modal1">Врач</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#modal2">Программист</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#modal3">Учитель</a></li>
+    </ul>
+</div>
+
+<!-- Модальные окна -->
+<div class="modal fade" id="modal1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Врач</h5>
+                <button type="button" class="close" data-dismiss="modal">X</button>
+            </div>
+            <div class="modal-body">
+                Врач — специалист, занимающийся лечением и профилактикой заболеваний.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal2">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Программист</h5>
+                <button type="button" class="close" data-dismiss="modal">X</button>
+            </div>
+            <div class="modal-body">
+                Программист — специалист, создающий программное обеспечение.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal3">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Учитель</h5>
+                <button type="button" class="close" data-dismiss="modal">X</button>
+            </div>
+            <div class="modal-body">
+                Учитель — профессионал, обучающий учащихся в школе или университете.
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
